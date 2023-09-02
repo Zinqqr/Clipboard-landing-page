@@ -1,0 +1,282 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+p{
+    color: hsl(210, 10%, 33%);
+}
+.Header{
+    width: 100px;
+}
+.Header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.First-Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.First-Section p{
+    display: flex;
+    width: 500px;
+    padding: 0;
+    margin: 0;
+}
+.First-Section-buttons{
+    padding-top: 40px;
+    gap: 50px;
+}
+button.Download-for-iOS{
+    color: white;
+     background-color: hsl(171, 66%, 44%);
+     padding: 12px 25px;
+     border: 1px solid hsl(171, 66%, 44%);
+     border-radius: 20px;
+     box-shadow: 0 0 5px hsl(171, 66%, 44%);
+}
+button.Download-for-Mac{
+      color: white;
+      background-color: hsl(233, 100%, 69%);
+      padding: 12px 25px;
+      border: 1px solid hsl(233, 100%, 69%);
+      border-radius: 20px;
+      box-shadow: 0 0 5px hsl(233, 100%, 69%);
+      /* margin-left: 10px; */
+}
+.Second-Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Computer{
+    width: 600px;
+}
+.Keep-track-of-your-snippets-text{
+    display: flex;
+    text-align: center;
+    width: 560px;
+    padding: 0;
+
+    margin-bottom: 70px;
+}
+.image-section{
+    display: flex;
+    gap: 100px;
+}
+.image-section-text{
+    width: 300px;
+}
+.Third-Section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+.Third-Section p{
+    width: 500px;
+}
+.Device{
+    width: 700px;
+}
+.Access-clipboard-anywhere-text{
+    margin-bottom: 70px;
+}
+.Fourth-Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Supercharge-tools{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.Supercharge-tools p{
+    width: 300px;
+}
+.Logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.Google-logo{
+    width: 150px;
+    height: 50px;
+}
+.ibm-logo{
+    width: 150px;
+    height: 50px;
+}
+.Microsoft-logo{
+    width: 150px;
+    height: 40px;
+}
+.Hp-logo{
+    width: 150px;
+    height: 50px;
+}
+.Graphics-logo{
+    width: 150px;
+    height: 40px;
+}
+.Clipboard-Section{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Clipboard-Section p{
+    width: 500px;
+}
+.Clipboard-Section-buttons{
+     margin: 50px auto;
+}
+.Footer{
+    display: flex;
+    gap: 150px;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.Footer-logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    
+}
+.icons{
+    letter-spacing: 10px;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+    }
+    .Header{
+        width: 100px;
+    }
+    .First-Section h1{
+        width: 300px;
+    }
+    .First-Section p{
+        width: 350px;
+    }
+    .First-Section-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    button.Download-for-iOS{
+        padding: 12px 100px;
+    }
+    button .Download-for-Mac{
+        padding: 12px 95px;
+    }
+    .Second-Section h2{
+        display: flex;
+        text-align: center;
+        width: 300px;
+    }
+    .Second-Section p{
+        width: 300px;
+    }
+    .image-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Computer{
+        width: 300px;
+    }
+    .Third-Section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Third-Section h2{
+        display: flex;
+        text-align: center;
+    }
+    .Third-Section p{
+        display: flex;
+        text-align: center;
+        width: 300px;
+    }
+    .Device{
+        width: 300px;
+    }
+    .Fourth-Section{
+        display: flex;
+        flex-direction: column;
+    }
+    .Fourth-Section p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        margin-bottom: 50px
+    }
+    .Supercharge-tools{
+        display: flex;
+        flex-direction: column;
+    }
+    .logos{
+        display: flex;
+        flex-direction: column;
+    }
+    .Clipboard-Section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .Clipboard-Section h2{
+        display: flex;
+        width: 250px;
+    }
+    .Clipboard-Section p{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .Clipboard-Section-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 40px;
+    }
+    
+}
